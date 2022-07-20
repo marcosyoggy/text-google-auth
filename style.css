@@ -1,0 +1,57 @@
+body {
+    background-color: gray;
+}
+
+.div_El01, .div_El02, .div_El03 {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border: 1px solid red;
+    border-radius: 15px;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    border-radius: 20px;
+    padding: 10px; 
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px; 
+    font-family: 'Franklin Gothic Medium';
+}
+
+button:hover {
+    background-color: lime;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.panel {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: lime;
+    color: white;
+
+}
